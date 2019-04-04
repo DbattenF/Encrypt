@@ -1,4 +1,4 @@
-Pod::Spec.new do |s|
+Pod::Encrypt do |s|
   #1.
   s.name         = "Encrypt"
   #2.
@@ -10,12 +10,12 @@ Pod::Spec.new do |s|
   #5.
   s.license      = "MIT"
   #6.
-  s.author             = "Santiago Faverio"
+  s.author       = "Santiago Faverio"
   #7.
   s.platform     = :ios, "5.0"
   #8.
-  s.source       = { :git => "https://github.com/DbattenF/Encrypt.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/DbattenF/Encrypt.git", :branch => "master", :tag => "#{s.version.to_s}" }
   #9.
-  S.source?files	= "Encrypt", "Encrypt/**/*.{h,m,swift}"
+  S.source?files = "Encrypt", "Encrypt/**/*.{h,m,swift}"
   
 end
