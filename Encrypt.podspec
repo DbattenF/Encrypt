@@ -16,6 +16,6 @@ Pod::Spec.new do |s|
   #8.
   s.source       = { :git => "https://github.com/DbattenF/Encrypt.git", :branch => "master", :tag => "#{s.version.to_s}" }
   #9.
-  S.source?files = "Encrypt", "Encrypt/**/*.{h,m,swift}"
+  s.source?files = "Encrypt", "Encrypt/**/*.{h,m,swift}"
   
 end
